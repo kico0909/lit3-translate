@@ -26,6 +26,20 @@
 
 - [装饰器](docs/002.构成(components)/decorators.md)
 
+## HTML模版
+
+- [概述](docs/003.模版(templates)/templates.md)
+
+- [表达式](docs/003.模版(templates)/expressions.md)
+
+- [条件](docs/003.模版(templates)/conditionals.md)
+
+- [循环列表](docs/003.模版(templates)/lists.md)
+
+- [内置指令](<docs/003.模版(templates)/Built-in directives.md>)
+
+- [自定义指令](<docs/003.模版(templates)/custom directives.md>)
+
 ## 本地化
 
 - [运行时本地化模式](<docs/009.本地化(Localization)/Runtime localization mode.md>)
