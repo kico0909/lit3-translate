@@ -9,14 +9,15 @@ Lit 模板中可以包含称为表达式的动态值。表达式可以是任意 
 
 以下是一个快速参考，后面将详细介绍每种表达式类型：
 
-| 类型              | 示例                                             |
-|-------------------|--------------------------------------------------|
-| **子节点**        | `html`<br>`<h1>Hello ${name}</h1><ul>${listItems}</ul>` |
-| **属性**          | `html`<br>`<div class=${highlightClass}></div>`   |
-| **布尔属性**      | `html`<br>`<div ?hidden=${!show}></div>`          |
-| **属性（属性绑定）** | `html`<br>`<input .value=${value}>`               |
-| **事件监听器**    | `html`<br>`<button @click=${this._clickHandler}>Go</button>` |
-| **元素指令**      | `html`<br>`<input ${ref(inputRef)}>`              |
+
+| 类型                 | 示例                                                         |
+| -------------------- | ------------------------------------------------------------ |
+| **子节点**           | `html`<br/>`<h1>Hello ${name}</h1><ul>${listItems}</ul>`      |
+| **属性**             | `html`<br>`<div class=${highlightClass}></div>`              |
+| **布尔属性**         | `html`<br>`<div hidden=${!show}></div>`                     |
+| **属性（属性绑定）** | `html`<br>`<input .value=${value}>`                          |
+| **事件监听器**       | `html`<br>`<button @click=${this._clickHandler}>Go</button>` |
+| **元素指令**         | `html`<br>`<input ${ref(inputRef)}>`                         |
 
 以下是一个包含各种表达式类型的基本示例：
 
